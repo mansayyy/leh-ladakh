@@ -1,0 +1,169 @@
+.{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+@font-face { font-family: Pacifico-Regular; src: url('fonts/Pacifico-Regular.ttf'); }
+.new_font{  
+    position: absolute;
+    top:40%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-family: "Pacifico-Regular";
+    font-size: 4em;
+    font-stretch: ultra-expanded;
+}
+
+.headings{
+    font-family: "Pacifico-Regular";
+    font-size: 5em;
+    font-stretch: ultra-expanded;
+    text-align: center;margin-top: 40px;
+
+
+}
+
+.cover{
+        height: 60%;
+        width: 100%;
+        margin-top: 30px;
+        opacity: 0.5;
+}
+
+nav{
+    background-color: #FBE8A6;
+    position: fixed;
+    top:0;
+}
+
+
+#more {display: none;}
+
+
+.ed{
+    height: 350pt;
+    text-align: center;
+    font-style: italic;    
+    background-color: lightpink;
+    margin-top: 30px;
+   }
+
+.alt1{
+    margin-top: 30px;
+    text-align: center;
+    background-color: lightskyblue;
+}
+
+#linkbar a {
+    color: black;
+}
+
+#linkbar a:hover {
+    color: black;
+    background-color: #f3efae;
+    opacity: 0.5;
+}
+
+.intro{
+    margin-top: 20px;
+    background-color: lightpink;
+}
+
+.intro>p{
+    padding-top: 20%;
+    position: relative;
+    vertical-align: middle;
+}
+
+.tt{
+    margin-top: 20px;
+    width:100%;
+}
+
+.BlogA{
+    margin-top: 20px;
+    background-color: #B4DFE5;
+}
+
+.BlogB{
+    margin-top: 20px;
+    background-color: #D2FDFF;
+
+}
+
+
+button{
+    margin-left: 40%;
+}
+
+.dayz{
+    background-color: lightblue;
+}
+
+.dayo{
+    background-color: lightgoldenrodyellow;
+}
+
+.daytw{
+    background-color: lightcyan;
+}
+.blogq{
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: x-large;
+    word-spacing: 20px;
+    font-stretch: expanded;
+    margin-top: 30px;
+}
+
+.ref{
+    text-decoration: none;
+    text-align: center;
+    color:black;
+    
+}
+
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #eee;
+  }
+  
+  /* Display list items side by side */
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+  }
+  
+  /* Add a slash symbol (/) before/behind each list item */
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+  }
+  
+  /* Add a color to all links inside the list */
+  ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+  }
+  
+  /* Add a color on mouse-over */
+  ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+  }
+
+  hr{
+      border: solid;
+      background-color: brown ;
+      color: brown;
+      height: 3px;
+      width: 100%;
+  }
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
